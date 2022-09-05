@@ -15,6 +15,7 @@
   "scripts": {
     "dev": "yarn yaml2json && next dev",
     "build": "yarn yaml2json && next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
     "yaml2json": "npx yaml2json ./i18n --pretty --save --recursive",
